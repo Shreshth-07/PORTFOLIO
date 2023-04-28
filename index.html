@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PORTFOLIO</title>
 
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+
     <meta name="generator" content="Geany 1.37.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <link href="style.css" rel="stylesheet">
@@ -30,12 +33,17 @@
 </head>
 
 <body>
+
+    <header>
+        <img src="logo.jpg" />
+    </header>
     <div class="container">
 
 
         <!-- 3D content for your site: -->
 
-        <model-viewer class="content" src="scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar>
+        <model-viewer class="content" src="scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls
+            auto-rotate ar>
         </model-viewer>
         <!-- Loads <model-viewer> for modern browsers: -->
         <script type="module" src="model.min.js">
@@ -43,10 +51,69 @@
 
 
         <div class="content">
-            <h1 id="name">SHRESHTH PRATAP SINGH</h1>
+            <p>SHRESHTH PRATAP SINGH</p>
         </div>
 
     </div>
+
+    <div class="separator"></div>
+
+
+    <div class="sidebar">
+
+        <aside class="info">
+
+            <div class="list">
+
+                <div class="contact-info">
+                    <p class="fa fa-envelope"> Email :</p>
+
+                    <a href="mailto:pratapsinghshreshth123@gmail.com"
+                        class="contact-link">pratapsinghshreshth123@gmail.com</a>
+                </div>
+
+                <div class="contact-info">
+                    <p class="fa fa-phone"> Phone :</p>
+
+                    <a href="tel:+918535077776" class="contact-link">+91 8535077776</a>
+                </div>
+
+                <div class="contact-info">
+                    <p class="fa fa-calendar"> Birthday : </p>
+
+                    <time datetime="2002-12-07" class="contact-link">DEC 07, 2002</time>
+                </div>
+
+                <div class="contact-info">
+                    <p class="fa fa-map-marker"> Location :</p>
+
+                    <address class="contact-link"> Khatima, Udham Singh Nagar, Uttarakhand</address>
+                </div>
+
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="media">
+                <a href="#" class="fa fa-facebook"></a>
+
+                <a href="#" class="fa fa-twitter"></a>
+
+                <a href="#" class="fa fa-linkedin"></a>
+
+                <a href="#" class="fa fa-instagram"></a>
+
+                <a href="#" class="fa fa-github"></a>
+            </div>
+        </aside>
+
+        <section class="contact">
+            hello
+        </section>
+    </div>
+
+
+    
 
 </body>
 
