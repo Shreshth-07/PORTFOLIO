@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PORTFOLIO</title>
+
+    <meta name="generator" content="Geany 1.37.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="style.css" rel="stylesheet">
+    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+
+    <!--  REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+    <script src="loader.js"></script>
+
+    <!--  OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+    <!--     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script> -->
+
+    <!--  OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+    <!--     <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script> -->
+
+    <!--  OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <!--
+   <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+	-->
+</head>
+
+<body>
+    <div class="container">
+
+
+        <!-- 3D content for your site: -->
+
+        <model-viewer class="content" src="scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar>
+        </model-viewer>
+        <!-- Loads <model-viewer> for modern browsers: -->
+        <script type="module" src="model.min.js">
+        </script>
+
+
+        <div class="content">
+            <h1 id="name">SHRESHTH PRATAP SINGH</h1>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
