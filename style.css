@@ -144,6 +144,9 @@ model-viewer {
     float: left;
     border-radius: 15px;
 }
+.contact-link{
+    text-align: center;
+}
 
 .contact-info {
     padding: 20px;
