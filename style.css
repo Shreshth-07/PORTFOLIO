@@ -144,14 +144,15 @@ model-viewer {
     float: left;
     border-radius: 15px;
 }
-.contact-link{
-    text-align: center;
-}
 
 .contact-info {
-    padding: 20px;
+    width: 100%;
+    margin-left: 20px;
     color: white;
     text-align: left;
+}
+.contact-link{
+    font-size: 98%;
 }
 
 iframe {
@@ -205,26 +206,6 @@ iframe {
         width: 35%;
     }
 
-    .contact-link {
-        font-size: 18px;
-    }
-
-    .fa-envelope {
-        font-size: 30px;
-    }
-
-    .fa-phone {
-        font-size: 30px;
-    }
-
-    .fa-calendar {
-        font-size: 30px;
-    }
-
-    .fa-map-marker {
-        font-size: 30px;
-    }
-
     .contact {
         width: 64%;
     }
@@ -245,61 +226,8 @@ iframe {
         width: 100%;
     }
 
-    .contact-link {
-        font-size: 25px;
-    }
-
-    .fa-envelope {
-        font-size: 40px;
-    }
-
-    .fa-phone {
-        font-size: 40px;
-    }
-
-    .fa-calendar {
-        font-size: 40px;
-    }
-
-    .fa-map-marker {
-        font-size: 40px;
-    }
-
     .media {
         align-items: center;
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .contact-link {
-        padding: 5px;
-        font-size: 15px;
-        text-align: justify;
-    }
-
-    .fa-envelope {
-        font-size: 20px;
-    }
-
-    .fa-phone {
-        font-size: 20px;
-    }
-
-    .fa-calendar {
-        font-size: 20px;
-    }
-
-    .fa-map-marker {
-        font-size: 20px;
-    }
-
-    .media {
-        align-items: center;
-        text-align: center;
-    }
-
-    .h2 {
-        font-size: 20px;
     }
 }
