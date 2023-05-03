@@ -271,24 +271,24 @@ iframe {
 @media screen and (max-width: 600px) {
     .contact-link {
         padding: 5px;
-        font-size: 16px;
+        font-size: 15px;
         text-align: justify;
     }
 
     .fa-envelope {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .fa-phone {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .fa-calendar {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .fa-map-marker {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .media {
