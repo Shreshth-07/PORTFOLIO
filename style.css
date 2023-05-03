@@ -42,11 +42,15 @@ header img {
 .content {
     float: left;
     width: 50%;
-    height: 600px;
     /*color: white;
     background-color: rgb(23, 22, 22);
     border: 2px solid white;
     border-radius: 10px;*/
+}
+
+model-viewer {
+    height: 500px;
+    width: 50%;
 }
 
 .content p {
@@ -65,21 +69,27 @@ header img {
     clear: both;
 }
 
-@media screen and (min-width: 801px) {
-    div #name {
+@media screen and (min-width: 1201px) {
+    .content p {
         font-size: 80px;
     }
 }
 
-@media screen and (max-width: 800px) {
-    div #name {
+@media screen and (max-width: 1200px) {
+    .content p {
         font-size: 40px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .content {
-        width: 100%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .content {
+        width: 50%;
     }
 }
 
@@ -124,120 +134,168 @@ header img {
 }
 
 .info {
-    position: sticky;
-    top: 0;
-    width: 30%;
+    border: 2px solid white;
     float: left;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: rgb(34, 35, 35);
+    border-radius: 15px;
 }
 
-@media screen and (max-width: 800px) {
-    .sidebar {
-        width: 100%;
-    }
-}
-
-.media {
-    align-items: center;
-    text-align: center;
-}
-
-.list {
-    padding: 20px;
+.contact {
+    border: 2px solid white;
+    float: left;
+    border-radius: 15px;
 }
 
 .contact-info {
+    padding: 20px;
     color: white;
-}
-
-.fa-envelope {
     text-align: left;
-    width: 100%;
 }
 
-.fa-phone {
-    text-align: left;
-    width: 100%;
+iframe {
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
-.fa-calendar {
-    text-align: left;
-    width: 100%;
+.h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
 
-.fa-map-marker {
-    text-align: left;
-    width: 100%;
+.form
+{
+    text-align: center;
 }
 
-.contact-link {
-    font-size: 18px;
+.h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form input
+{
+    width: 60%;
+    font-size: 16px;
+    color: white;
+    padding: 13px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(50, 47, 47);
+}
+.form button
+{
+    width: 20%;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 13px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
 }
 
 
-@media screen and (min-width: 601px) {
-    .contact-link {
-        margin: 15px;
-        font-size: 20px;
+@media screen and (min-width: 1250px) {
+    .info {
+        margin-right: 13px;
+        width: 35%;
     }
+
+    .contact-link {
+        font-size: 18px;
+    }
+
     .fa-envelope {
         font-size: 30px;
     }
-    
+
     .fa-phone {
         font-size: 30px;
     }
-    
+
     .fa-calendar {
         font-size: 30px;
     }
-    
+
     .fa-map-marker {
         font-size: 30px;
+    }
+
+    .contact {
+        width: 64%;
+    }
+
+    .media {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1251px) {
+    .info {
+        width: 100%;
+    }
+
+    .contact {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .contact-link {
+        font-size: 25px;
+    }
+
+    .fa-envelope {
+        font-size: 40px;
+    }
+
+    .fa-phone {
+        font-size: 40px;
+    }
+
+    .fa-calendar {
+        font-size: 40px;
+    }
+
+    .fa-map-marker {
+        font-size: 40px;
+    }
+
+    .media {
+        align-items: center;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 600px) {
     .contact-link {
-        margin: 10px;
-        font-size: 16px;
+        padding: 10px;
+        font-size: 18px;
     }
+
     .fa-envelope {
-        font-size: 20px;
+        font-size: 30px;
     }
-    
+
     .fa-phone {
-        font-size: 20px;
+        font-size: 30px;
     }
-    
+
     .fa-calendar {
-        font-size: 20px;
+        font-size: 30px;
     }
-    
+
     .fa-map-marker {
+        font-size: 30px;
+    }
+
+    .media {
+        align-items: center;
+        text-align: center;
+    }
+
+    .h2 {
         font-size: 20px;
-    }
-}
-
-
-.contact
-{
-    width: 69.625%;
-    float: left;
-    margin-left: 5px;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: rgb(34, 35, 35);
-}
-
-@media screen and (max-width: 800px) {
-    .contact {
-        margin-top: 10px;
-        width: 100%;
-    }
-    .info{
-        width: 100%;
     }
 }
