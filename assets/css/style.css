@@ -1038,18 +1038,18 @@ model-viewer
 
 
 /*-----------------------------------*\
-  #vlog
+  #Certificate
 \*-----------------------------------*/
 
-.vlog-posts { margin-bottom: 10px; }
+.certificate { margin-bottom: 10px; }
 
-.vlog-posts-list {
+.certificate-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
-.vlog-post-item > a {
+.certificate-item > a {
   position: relative;
   background: var(--border-gradient-onyx);
   height: 100%;
@@ -1058,7 +1058,7 @@ model-viewer
   z-index: 1;
 }
 
-.vlog-post-item > a::before {
+.certificate-item > a::before {
   content: "";
   position: absolute;
   inset: 1px;
@@ -1067,25 +1067,25 @@ model-viewer
   z-index: -1;
 }
 
-.vlog-banner-box {
+.certificate-banner-box {
   width: 100%;
   height: 200px;
   border-radius: 12px;
   overflow: hidden;
 }
 
-.vlog-banner-box img {
+.certificate-banner-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: var(--transition-1);
 }
 
-.vlog-post-item > a:hover .vlog-banner-box img { transform: scale(1.1); }
+.certificate-item > a:hover .certificate-banner-box img { transform: scale(1.1); }
 
-.vlog-content { padding: 15px; }
+.certificate-content { padding: 15px; }
 
-.vlog-meta {
+.certificate-meta {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -1093,21 +1093,21 @@ model-viewer
   margin-bottom: 10px;
 }
 
-.vlog-meta :is(.vlog-category, time) {
+.certificate-meta :is(.certificate-category, time) {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
 
-.vlog-item-title {
+.certificate-item-title {
   margin-bottom: 10px;
   line-height: 1.3;
   transition: var(--transition-1);
 }
 
-.vlog-post-item > a:hover .vlog-item-title { color: var(--orange-yellow-crayola); }
+.certificate-item > a:hover .certificate-item-title { color: var(--orange-yellow-crayola); }
 
-.vlog-text {
+.certificate-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -1244,11 +1244,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, vlog 
+   * #PORTFOLIO, Certificate 
    */
 
   .project-img,
-  .vlog-banner-box { height: auto; }
+  .certificate-banner-box { height: auto; }
 
 }
 
@@ -1503,14 +1503,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, vlog
+   * #PORTFOLIO, Certificate
    */
 
-  .project-img, .vlog-banner-box { border-radius: 16px; }
+  .project-img, .certificate-banner-box { border-radius: 16px; }
 
-  .vlog-posts-list { gap: 30px; }
+  .certificate-list { gap: 30px; }
 
-  .vlog-content { padding: 25px; }
+  .certificate-content { padding: 25px; }
 
 
 
@@ -1622,9 +1622,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
-  /* portfolio and vlog grid */
+  /* portfolio and Certificate grid */
 
-  .project-list, .vlog-posts-list { grid-template-columns: 1fr 1fr; }
+  .project-list, .certificate-list { grid-template-columns: 1fr 1fr; }
 
 
 
@@ -1749,10 +1749,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * vlog
+   * Certificate
    */
 
-  .vlog-banner-box { height: 230px; }
+  .certificate-banner-box { height: 230px; }
 
 }
 
